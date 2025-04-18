@@ -1,0 +1,10 @@
+name: ayin-learn-tf2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - tensorflow=2.17
+  - pip
+  - pip:
+    - numpy==1.26.4
